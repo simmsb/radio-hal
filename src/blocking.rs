@@ -9,7 +9,7 @@
 use core::fmt::Debug;
 use core::time::Duration;
 
-use embedded_hal::delay::blocking::DelayUs;
+use embedded_hal::delay::DelayUs;
 
 #[cfg(not(feature = "defmt"))]
 use log::debug;
